@@ -14,17 +14,11 @@ module.exports = {
 
 
     .addField("`my name`", `**YOYA#5183**`, true)
-
     .addField("`My ID`",  `**791856757844475914**`, true)
-    
     .addField( "`My Prefix` ",`**y**`,true)
-    
     .addField("`Node.js Version`",  `**12**`, true)
-    
     .addField("`Language Program`",  `**Java Script**`, true)
-    
     .addField("`Discord.js `",  `**12.5.1**`, true)
-    
     .addField( "`developer bot` ",`<@681553671364018196>`,true)          
          
             setTimeout(() => {
