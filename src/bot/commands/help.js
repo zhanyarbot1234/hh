@@ -23,7 +23,7 @@ module.exports = {
 **Music Commands**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
 \`volume\` . \`lyrics\` . \`join\` . \`pause\` 
-\`stop\` . \`filter\` .  \|leave\` . \`resume\`
+\`stop\` . \`filter\` .  \`leave\` . \`resume\`
 \`radio\` . \`queue\`
                
 **Links**
