@@ -13,7 +13,7 @@ module.exports = {
                
 
 
-    .addField("`my name`", `**YOYA#5183**`, true)
+    .addField("`My name`", `**SOUL ✨#0643**`, true)
     .addField("`My ID`",  `**893739956747501599**`, true)
     .addField( "`My Prefix` ",`**+**`,true)
     .addField("`Node.js Version`",  `**12**`, true)
