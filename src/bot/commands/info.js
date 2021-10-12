@@ -14,12 +14,12 @@ module.exports = {
 
 
     .addField("`my name`", `**YOYA#5183**`, true)
-    .addField("`My ID`",  `**791856757844475914**`, true)
-    .addField( "`My Prefix` ",`**y**`,true)
+    .addField("`My ID`",  `**893739956747501599**`, true)
+    .addField( "`My Prefix` ",`**+**`,true)
     .addField("`Node.js Version`",  `**12**`, true)
     .addField("`Language Program`",  `**Java Script**`, true)
     .addField("`Discord.js `",  `**12.5.1**`, true)
-    .addField( "`developer bot` ",`<@681553671364018196>`,true)          
+    .addField( "`developer bot` ",`<@759092654411350017>`,true)          
          
             setTimeout(() => {
                 message.channel.send({
