@@ -13,9 +13,9 @@ module.exports = {
                
                 .setDescription(`
                 
-                **Invite, YOYA**
+                **Invite, Soul ✨**
                 
-  **[ Invite Me Now , thanks ](https://discord.com/api/oauth2/authorize?client_id=791856757844475914&permissions=0&scope=bot)** 
+  **Click [Here](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot) To Invite Me** 
    `);
 
 
