@@ -13,12 +13,22 @@ module.exports = {
                
                
                 .setDescription(`
-> \` play . skip . nowplaying . loop . queue \`
-> \` lyrics . join . pause . resume . radio \`
-> \` stop . filter . prefix  . leave . volume \`
-> \`ping . invite . support . vote . info\`
-  **[ \`invite\` ](https://discord.com/api/oauth2/authorize?client_id=791856757844475914&permissions=0&scope=bot)** , **[ \`support\` ](https://discord.gg/7sEtecbAM6)**   
-   `);
+                
+                **Public Commands**
+                \`ping\` . \`invite\` . \`support\` . \`info\`
+                
+                **Asmin Commands**
+                \`prefix\`
+                
+                **Music Commands**
+                \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
+                \`volume\` . \`lyrics\` . \`join\` . \`pause\` 
+                \`stop\` . \`filter\` .  \|leave\` . \`resume\`
+                \`radio\` . \`queue\`
+               
+               **Links**
+               **[Support Server](https://discord.gg/NnHedRywk6) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot)**
+               `);
 
 
               
