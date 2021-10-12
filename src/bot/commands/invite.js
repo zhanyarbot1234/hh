@@ -12,11 +12,8 @@ module.exports = {
                
                
                 .setDescription(`
-                
-                **Invite, Soul ✨**
-                
-  **Click [Here](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot) To Invite Me** 
-   `);
+        **Click [Here](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot) To Invite Me** 
+                 `);
 
 
               
