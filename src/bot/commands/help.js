@@ -17,7 +17,7 @@ module.exports = {
 **Public Commands**
 \`ping\` . \`invite\` . \`support\` . \`info\`
                 
-**Asmin Commands**
+**Admin Commands**
 \`prefix\`
                 
 **Music Commands**
