@@ -22,6 +22,7 @@ module.exports = {
 \`prefix\` . \`embed\` . \`dm\` . \`ban\`
 \`unban\` . \`mute\` . \`unmute\` . \`lock\`
 \`unlock\`. \`kick\` . \`slowmode\` . \`setnick\`
+\`warn\`
 
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
