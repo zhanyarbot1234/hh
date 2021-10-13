@@ -16,10 +16,10 @@ module.exports = {
         let user = message.mentions.users.first() || message.guild.members.cache.get(args[0])
         if (!user) return message.channel.send(
             new MessageEmbed()
-                .setColor("RED")
+                .setColor("")
                 .setAuthor(message.author.tag)
                 .setDescription('You must mention someone or provide a valid UserID for me to dm them.')
-                .setFooter("Coded by: Tech Boy Gaming")
+                .setFooter("")
         )
 
         if (msg.length < 1) msg = 'Blank message. . .';
@@ -32,7 +32,7 @@ module.exports = {
             .setThumbnail(user.displayAvatarURL())
             .addField('Remember:', `Do not reply to me because ${message.author.username} will not recieve the reply, take your stuff to their dms instead :)`)
             .addField(`${message.author.username}'s message:`, msg)
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("")
         user.send({ embed }).catch(e => {
             if (e) {
                 return message.channel.send(
