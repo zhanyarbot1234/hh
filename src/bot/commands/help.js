@@ -21,7 +21,7 @@ module.exports = {
 **🔰 Admin**
 \`prefix\` . \`embed\` . \`dm\` . \`ban\`
 \`unban\` . \`mute\` . \`unmute\` . \`lock\`
-\`unlock\`
+\`unlock\`. \`kick\` . \`slowmode\`
 
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
