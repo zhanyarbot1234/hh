@@ -6,5 +6,5 @@ module.exports = async function(client) {
     await console.log(chalk.red.bold(client.user.tag) + chalk.blue.bold("Is Ready"));
 
     await client.user.setActivity("+help");
-    await client.user.setStatus("idle");
+    await client.user.setStatus("STREAMING");
 }
