@@ -16,7 +16,7 @@ module.exports = {
     const user = message.mentions.members.first();
 
     if (!user) {
-      return message.channel.send("\```please mention the members for mute\```");
+      return message.channel.send("please mention the members for mute");
     }
     if (user.id === message.author.id) {
       return message.channel.send("I can't mute you because you are message author");
@@ -24,7 +24,7 @@ module.exports = {
     let reason = args.slice(1).join("");
 
     if (!reason) {
-      return message.channel.send(" \``` please give some  reason for mute\``` ");
+      return message.channel.send("please give some  reason for mute");
     }
 
     const vrole = user.roles.cache
@@ -32,7 +32,7 @@ module.exports = {
     let muterole = message.guild.roles.cache.find(x => x.name === "muted");
 
     if (!muterole) {
-      return message.channel.send("\```please create role name with muted \``` ");
+      return message.channel.send("please create role name with muted");
     }
     
     await user.roles.remove(vrole);
