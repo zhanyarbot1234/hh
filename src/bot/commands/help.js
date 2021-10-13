@@ -14,20 +14,20 @@ module.exports = {
                
                 .setDescription(`
                 
-**Public Commands**
+**✨ Utils**
 \`ping\` . \`invite\` . \`support\` . \`info\`
                 
-**Admin Commands**
+**🔰 Admin**
 \`prefix\`
                 
-**Music Commands**
+**🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
 \`volume\` . \`lyrics\` . \`join\` . \`pause\` 
 \`stop\` . \`filter\` .  \`leave\` . \`resume\`
 \`radio\` . \`queue\`
                
-**Links**
-**[Support Server](https://discord.gg/NnHedRywk6) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot)**
+**🔗 Links**
+[Support Server](https://discord.gg/NnHedRywk6) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot)
 
 `);
 
