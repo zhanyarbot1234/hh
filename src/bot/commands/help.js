@@ -20,7 +20,7 @@ module.exports = {
 
 **🔰 Admin**
 \`prefix\` . \`embed\` . \`dm\` . \`ban\`
-\`unban\` 
+\`unban\` . \`mute\` . \`unmute\`
 
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
