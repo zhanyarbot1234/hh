@@ -19,7 +19,7 @@ module.exports = {
 \`avatar\` . \`ship\`
 
 **🔰 Admin**
-\`prefix\` . \`embed\` . \`addemoji\`
+\`prefix\` . \`embed\`
                 
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
