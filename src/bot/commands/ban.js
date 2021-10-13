@@ -27,9 +27,9 @@ module.exports = {
                 .setTitle("Missing arguments")
                 .setDescription(`
 **Name** : ban\n
-**Description** :Bans a Member from a Guild\n
+**Description** : Bans a Member from a Guild\n
 **aliases** : jabsdk\n
-**usage**: ban <@user/ID> [reason]\n `)
+**usage** : ban <@user/ID> [reason]\n `)
                 .setFooter("")
                 .setTimestamp()
             return message.channel.send(missingArgs);
