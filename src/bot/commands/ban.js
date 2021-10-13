@@ -14,7 +14,7 @@ module.exports = {
     run: async (client, message, args) => {
         if (!message.member.permissions.has("BAN_MEMBERS")) return message.channel.send(
             new MessageEmbed()
-            .setColor("RED")
+            .setColor("#FF0000")
             .setAuthor(message.author.tag)
             .setDescription("**You Dont Have The Permissions To Mute Users! - [BAN_MEMBERS]**")
             .setFooter("")
@@ -23,13 +23,13 @@ module.exports = {
         let banMember = message.mentions.members.first() || message.guild.members.cache.get(args[0])
         if (!banMember) {
             const missingArgs = new MessageEmbed()
-                .setColor("RED")
+                .setColor("#FF0000")
                 .setTitle("Missing arguments")
                 .setDescription(`
-                                **Name** : ban\n
-                                **Description** :Bans a Member from a Guild\n
-                                **aliases** : jabsdk\n
-                                **usage**: ban <@user/ID> [reason]\n `)
+**Name** : ban\n
+**Description** :Bans a Member from a Guild\n
+**aliases** : jabsdk\n
+**usage**: ban <@user/ID> [reason]\n `)
                 .setFooter("")
                 .setTimestamp()
             return message.channel.send(missingArgs);
@@ -39,14 +39,14 @@ module.exports = {
 
         if (!message.guild.me.permissions.has(["BAN_MEMBERS", "ADMINISTRATOR"])) return message.reply(
             new MessageEmbed()
-                .setColor("RED")
+                .setColor("#FF0000")
                 .setAuthor(message.author.tag)
                 .setDescription("I dont have the permissions to ban users!")
                 .setFooter("")
         )
 
         let Sembed = new MessageEmbed()
-            .setColor("RED")
+            .setColor("#FF0000")
             .setAuthor(banMember.user.tag)
             .setFooter("")
             .setThumbnail(banMember.user.displayAvatarURL())
