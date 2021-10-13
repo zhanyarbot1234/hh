@@ -19,8 +19,9 @@ module.exports = {
 \`avatar\` . \`ship\`
 
 **🔰 Admin**
-\`prefix\` . \`embed\`
-                
+\`prefix\` . \`embed\` . \`dm\` . \`ban\`
+\`unban\` 
+
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
 \`volume\` . \`lyrics\` . \`join\` . \`pause\` 
