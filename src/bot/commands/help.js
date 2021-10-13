@@ -16,7 +16,8 @@ module.exports = {
                 
 **✨ Utils**
 \`ping\` . \`invite\` . \`support\` . \`info\`
-\`avatar\`             
+\`avatar\` . \`ship\`
+
 **🔰 Admin**
 \`prefix\`
                 
