@@ -13,7 +13,9 @@ module.exports = {
                
                
                 .setDescription(`
-                
+**💰 Economy**
+\`comming sonn\`
+
 **✨ Utils**
 \`ping\` . \`invite\` . \`support\` . \`info\`
 \`avatar\` . \`ship\`
@@ -28,7 +30,10 @@ module.exports = {
 \`volume\` . \`lyrics\` . \`join\` . \`pause\` 
 \`stop\` . \`filter\` .  \`leave\` . \`resume\`
 \`radio\` . \`queue\`
-               
+
+**⚔️ Games**
+\`Comming Sonn\`
+
 **🔗 Links**
 [Support Server](https://discord.gg/NnHedRywk6) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=893739956747501599&permissions=8&scope=bot)
 
