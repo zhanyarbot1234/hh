@@ -21,10 +21,10 @@ module.exports = {
 \`avatar\` . \`ship\`
 
 **🔰 Admin**
-\`prefix\` . \`embed\` . \`dm\` . \`ban\`
-\`unban\` . \`mute\` . \`unmute\` . \`lock\`
-\`unlock\`. \`kick\` . \`slowmode\` . \`setnick\`
-\`warn\`
+\`prefix\` . \`embed\` . \`ban\` . \`unban\|
+\`mute\` . \`unmute\` . \`lock\` . \`unlock\`
+\`kick\` . \`slowmode\` . \`setnick\` . \`warn\`
+
 
 **🎶 Music**
 \`play\` . \`skip\` . \`nowplaying\` . \`loop\`
