@@ -6,5 +6,5 @@ module.exports = async function(client) {
     await console.log(chalk.red.bold(client.user.tag) + chalk.blue.bold("Is Ready"));
 
     await client.user.setActivity("+help | Beta Version");
-    await client.user.setStatus("dnd");
+    await client.user.setStatus("dnd"); 
 }
