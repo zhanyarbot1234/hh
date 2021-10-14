@@ -14,7 +14,7 @@ module.exports = {
                
                 .setDescription(`
 **💰 Economy**
-\`comming sonn\`
+\`Comming Soon\`
 
 **✨ Utils**
 \`ping\` . \`invite\` . \`support\` . \`info\`
