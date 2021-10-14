@@ -21,7 +21,7 @@ module.exports = {
 \`avatar\` . \`ship\`
 
 **🔰 Admin**
-\`prefix\` . \`embed\` . \`ban\` . \`unban\|
+\`prefix\` . \`embed\` . \`ban\` . \`unban\`
 \`mute\` . \`unmute\` . \`lock\` . \`unlock\`
 \`kick\` . \`slowmode\` . \`setnick\` . \`warn\`
 
