@@ -70,6 +70,6 @@ msg.channel.bulkDelete(args[0]).catch(e => { msg.channel.send("You can only dele
 msg.channel.send(`Delete Message`).then(m => m.delete({ timeout: 5000 })); 
 
 }})
-/////////
+/////////l
 client.login(require("./config/bot").token).catch(err => console.log(chalk.red.bold(err)))
 
