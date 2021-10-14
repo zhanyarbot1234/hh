@@ -52,6 +52,24 @@ fs.readdir(__dirname + "/bot/events/music/", (err, files) => {
 client.distube.on("playSong", (message, queue, song) => message.channel.send(
     `Playing \`${song.name}\` - \`${song.formattedDuration}`
 ))
+////////////
+client.on("message", msg => { 
 
+if(msg.content === "+clear") { 
+
+let args = msg.content.split(" ").slice(1); 
+
+if(!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.channel.send("You can't use this command!"); 
+
+if(!args[0]) return msg.channel.send("Specify how many messages you want to delete."); 
+
+msg.delete(); 
+
+msg.channel.bulkDelete(args[0]).catch(e => { msg.channel.send("You can only delete 100 messages at once.")}); 
+
+msg.channel.send(`Delete Message`).then(m => m.delete({ timeout: 5000 })); 
+
+}})
+/////////
 client.login(require("./config/bot").token).catch(err => console.log(chalk.red.bold(err)))
 
