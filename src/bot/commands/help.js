@@ -34,7 +34,7 @@ module.exports = {
 \`Comming Sonn\`
 
 **🔗 Links**
-[Support Server](https://discord.gg/NnHedRywk6)
+[Support Server](https://discord.gg/a9zgcYJdCY)
 [Invite Me](https://discord.com/api/oauth2/authorize?client_id=897865860037890088&permissions=8&scope=bot)
 
 `);
