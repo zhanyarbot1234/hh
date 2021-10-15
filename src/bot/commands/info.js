@@ -13,13 +13,13 @@ module.exports = {
                
 
 
-    .addField("`My name`", `**SOUL ✨#0643**`, true)
-    .addField("`My ID`",  `**893739956747501599**`, true)
-    .addField( "`My Prefix` ",`**+**`,true)
+    .addField("`My name`", `**NAMO ᵉᶠᶠᵉᶜᵗ ˢᵗᵃᶠᶠ#1679**`, true)
+    .addField("`My ID`",  `**897865860037890088**`, true)
+    .addField( "`My Prefix` ",`**%**`,true)
     .addField("`Node.js Version`",  `**12**`, true)
     .addField("`Language Program`",  `**Java Script**`, true)
     .addField("`Discord.js `",  `**12.5.1**`, true)
-    .addField( "`developer bot` ",`<@759092654411350017>`,true)          
+    .addField( "`developer bot` ",`<@740950314764730420>`,true)          
          
             setTimeout(() => {
                 message.channel.send({
