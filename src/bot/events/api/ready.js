@@ -5,6 +5,6 @@ module.exports = async function(client) {
     console.log(chalk.yellow.bold(figlet.textSync("jano")));
     await console.log(chalk.red.bold(client.user.tag) + chalk.blue.bold("Is Ready"));
 
-    await client.user.setActivity("%help | Beta Version"Server,${client.guilds.cache.size);
+    await client.user.setActivity("%help | Beta Version");
     await client.user.setStatus("dnd"); 
 }
