@@ -6,7 +6,7 @@ module.exports = async function(client) {
     await console.log(chalk.red.bold(client.user.tag) + chalk.blue.bold("Is Ready"));
 
         
-    await client.user.setActivity("%help'%play");
+    await client.user.setActivity("%help|%play");
     await client.user.setStatus("online");;
     await client.user.setStatus("dnd"); 
 }
